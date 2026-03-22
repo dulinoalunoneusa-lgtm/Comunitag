@@ -24,7 +24,7 @@ if (!clientPromise) {
 
 // ROTA: Health Check
 app.get('/', (req, res) => {
-  res.status(200).json({ message: "Servidor Express no Vercel rodando!" });
+  res.status(200).json({ message: "Servidor Express rodando!" });
 });
 
 // ROTA: Submit
